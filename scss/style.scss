@@ -37,6 +37,8 @@
             summary{
               cursor: pointer;
               list-style: none;
+              -ms-list-style:none;
+          -webkit-list-style:none;
               padding-right: 50px;
               list-style-position: outside;
               position: relative;
@@ -124,6 +126,8 @@
 
         summary{
           list-style: none;
+          -ms-list-style:none;
+          -webkit-list-style:none;
           
           &::after{
             inset: 0;
